@@ -298,6 +298,7 @@ body {
 
 /* /* Contact Section Styling * */
 
+
 .contact-section {
   max-width: 1000px; 
   margin: 50px auto;
@@ -340,15 +341,13 @@ body {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: stretch;
-  gap: 20px;
+  gap: 15px;
   margin-top: 40px;
   overflow-x: auto;
   padding-bottom: 20px;
   -webkit-overflow-scrolling: touch;
-  scrollbar-width: thin;
-  width: 100%;
-  -ms-overflow-style: none;
   scrollbar-width: none;
+  width: 100%;
 }
 
 .contact-platforms::-webkit-scrollbar {
@@ -404,67 +403,72 @@ body {
 .whatsapp { color: #25d366; }
 .telegram { color: #0088cc; }
 
-@media (max-width: 900px) {
-  .contact-platforms {
-    justify-content: flex-start;
-  }
-}
-
+/* Mobile-first adjustments */
 @media (max-width: 768px) {
   .contact-section {
-    padding: 30px 20px;
-    margin: 30px 15px;
-    width: auto;
+    padding: 25px 15px;
+    margin: 30px 10px;
   }
   
   .contact-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   
-  .contact-card {
-    width: 140px;
-    min-width: 140px;
-    padding: 20px 10px;
-  }
-  
-  .contact-platforms {
-    gap: 15px;
-  }
-}
-
-@media (max-width: 480px) {
-  .contact-section {
-    padding: 25px 15px;
-    margin: 20px 10px;
-    border-radius: 12px;
+  .contact-subtitle {
+    font-size: 1rem;
+    margin-bottom: 30px;
   }
   
   .contact-platforms {
-    gap: 12px;
-    padding-bottom: 15px;
+    gap: 8px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    justify-content: flex-start;
   }
   
   .contact-card {
-    width: 120px;
-    min-width: 120px;
-    padding: 15px 8px;
+    width: 90px;
+    min-width: 90px;
+    padding: 12px 5px;
+    border-radius: 8px;
   }
   
   .contact-icon {
-    font-size: 2rem;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
   }
   
   .contact-name {
-    font-size: 0.9rem;
-    margin-bottom: 5px;
+    font-size: 0.7rem;
+    margin-bottom: 4px;
   }
   
   .contact-handle {
-    font-size: 0.75rem;
+    font-size: 0.6rem;
+    line-height: 1.2;
   }
 }
 
+/* Extra small devices */
+@media (max-width: 480px) {
+  .contact-card {
+    width: 80px;
+    min-width: 80px;
+    padding: 10px 4px;
+  }
+  
+  .contact-icon {
+    font-size: 1.3rem;
+  }
+  
+  .contact-name {
+    font-size: 0.65rem;
+  }
+  
+  .contact-handle {
+    font-size: 0.55rem;
+  }
+}
 
 /* .contact-section {
   max-width: 1000px; 
