@@ -341,7 +341,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   overflow-x: visible;
-  align-items: stretch;
+  align-items: center;
   gap: 15px;
   margin-top: 40px;
   overflow-x: auto;
