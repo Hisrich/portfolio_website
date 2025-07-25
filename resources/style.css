@@ -336,12 +336,9 @@ body {
 }
 
 .contact-platforms {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  overflow-x: visible;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto 100px;
   gap: 15px;
   margin-top: 40px;
   overflow-x: auto;
