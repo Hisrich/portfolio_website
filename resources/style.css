@@ -339,7 +339,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   overflow-x: visible;
   align-items: center;
   gap: 15px;
