@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Hisrich Addisi</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/Logo.PNG">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/Logo.PNG">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/Logo.PNG">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#010101">
+    <meta name="description" content="A responsive web portfolio">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio">
+    <meta name="author" content="Nicholas Hisrich Addisi">
+    <link rel="stylesheet" href="resources/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="resources/bootstrap.min.css">
+<script src="resources/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-transparent fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><span>&lt;&gt;</span> Hisrich </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="bi bi-list"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <!-- <div class="form-check form-switch">
+                    <label class="switch">
+                        <input type="checkbox" id="darkModeSwitch" onclick="toggleTheme()">
+                        <span class="slider"></span>
+                    </label>
+                </div> -->
+            </div>
+        </div>
+    </nav>
+    
+    <div class="profile-container">
+        <div class="header">
+            <img src="resources/Images/hisrich.JPG" alt="Profile Picture" class="profile-pic">
+            <h1 style="font-family: 'Times New Roman', Times, serif;"> <span><b>Nicholas Hisrich Addisi</b></span></h1>
+            <p></p>
+        </div>
+        
+        <div class="about-me">
+            <h2 class="section-title"> <span>About Me</span></h2>
+            <p>I'm a Machine Learning & AI Engineer skilled in predictive modeling, data analysis and AI-driven automation using Python, TensorFlow, PyTorch, Django, and Flask. As a Veterinary Doctor, I blend technology with healthcare to create impactful solutions.</p>
+            <a href="resources/Resume_Hisrich.pdf" class="download-btn" id="resume">
+                <span>View CV</span>
+            </a>
+        </div>
+    </div>
+
+
+    <section class="experience-section" id="experience">
+        <div class="container">
+            <h2 class="section-title">My <span>Experience</span></h2>
+            <p class="section-subtitle">------------------------------------</p>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">June 2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3>ML Engineer Intern</h3>
+                        <h4>Thrive Africa</h4>
+                        <p>Built and optimized machine learning models to solve real-world problems in Ghanaian markets. Improved data pipelines and contributed to impactful projects.</p>
+                        <div class="skills">
+                            <span>Python</span>
+                            <span>PyTorch</span>
+                            <span>Spark</span>
+                            <span>Git/GitHub</span>
+                            <span>Oracle Cloud</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jan 2025 - March 2025</div>
+                    <div class="timeline-content">
+                        <h3>Backend Developer Intern</h3>
+                        <h4>InternPulse</h4>
+                        <p>Contributed to building and maintaining APIs that supported core platform functionalities, including user authentication and data handling. I collaborated with a team in an Agile environment to support core platform features</p>
+                        <div class="skills">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>Flask</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">October 2023 - November 2023</div>
+                    <div class="timeline-content">
+                        <h3>Research Laboratory Assistant</h3>
+                        <h4>Kumasi Veterinary Laboratory</h4>
+                        <p>Performed fecal floatation and analyzed them under a microscope to detect parasites. Assisted veterinarians in diagnosing infections and planning treatments</p>
+                        <div class="skills">
+                            <span>Scientific Data Recording</span>
+                            <span>Diagnostic Parasitology</span>
+                            <span>Microscopy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="projects-section" id="projects">
+        <h2 class="section-title"> My <span>Projects</span></h2>
+        <p>----------------------</p>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="resources/Images/Diabetes.jpg" alt="Diabetes Model">
+                <h3>Diabetes Prediction Web App</h3>
+                <p>A machine learning-powered web app that predicts the likelihood of diabetes based on factors like age, blood pressure and general health status</p>
+                <div class="project-links">
+                    <a href="https://www.linkedin.com/posts/nicholashisrichaddisi_machinelearning-healthcaretech-python-activity-7279832929277546496-nAu4?utm_medium=ios_app&rcm=ACoAAC8BkvQB0vIZa9fZLzLtbHFXI6gb2VJ8odU&utm_source=social_share_send&utm_campaign=copy_link" target="_blank" class="btn demo-btn">Demo</a>
+                    <a href="https://github.com/Hisrich/Diabetes_ML_Model" target="_blank" class="btn code-btn">Code</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="resources/Images/Pet_adoption.jpg" alt="Pet Adoption Model">
+                <h3>Pet Adoption Prediction Model</h3>
+                <p>A machine learning model that predicts pet adoption likelihood based on factors like age, breed and health status using a U.S. pet adoption dataset</p>
+                <div class="project-links">
+                    <a href="https://github.com/Hisrich/Pet_Prediction_Model" target="_blank" class="btn demo-btn">Demo</a>
+                    <a href="https://github.com/Hisrich/Pet_Prediction_Model" target="_blank" class="btn code-btn">Code</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="resources/Images/vet_case.jpg" alt="Vet Case File">
+                <h3>Veterinary Case File Web App</h3>
+                <p>A simple web app for collecting data of pets and owners when they visit the clinic</p>
+                <div class="project-links">
+                    <a href="https://github.com/Hisrich" target="_blank" class="btn demo-btn">Demo</a>
+                    <a href="https://github.com/Hisrich" target="_blank" class="btn code-btn">Code</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="resources/Images/pedmonie55.jpg" alt="Pedmonie">
+                <h3>Pedmonie Payment Solutions</h3>
+                <p>A secure and seamless payment webapp built with Django and MySQL</p>
+                <div class="project-links">
+                    <a href="pedmonie.com.ng" target="_blank" class="btn demo-btn">Demo</a>
+                    <a href="https://github.com/InternPulse/pedmonie-django-backend" target="_blank" class="btn code-btn">Code</a>
+                </div>
+            </div>
+             <div class="project-card">
+                <img src="resources/Images/SVdownloader.jpg" alt="National Scholarship Portal">
+                <h3>SV Downloader</h3>
+                <p>A Telegram bot used for downloading social media, built with pyTelegramBotAPI and Selenium</p>
+                <div class="project-links">
+                    <a href="https://t.me/SVDownloader_bot" target="_blank" class="btn demo-btn">Demo</a>
+                    <a href="https://github.com/Hisrich/SV_Downloader_Bot" target="_blank" class="btn code-btn">Code</a>
+                </div>
+            </div>
+        <!--<div class="project-card">
+                <img src="resources/Images/collab-editor.png" alt="Collaborative Editor">
+                <h3>Collaborative Editor</h3>
+                <p>An online collaborative editor where you can share the written notes and invite collaborators to your article</p>
+                <div class="project-links">
+                    <a href="https://thughari.github.io/Collaborative-Editor-UI/" target="_blank" class="btn demo-btn">Demo</a>
+                    <a href="https://github.com/thughari/CollabEditor" target="_blank" class="btn code-btn">Code</a>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <p>----------------</p>
+        
+        <div class="skills-category">
+            <h3>Programming Languages</h3>
+            <br>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="resources/icons/python.png" class="skill-icon" style="transform: scale(1.4);" alt="">
+                    <p>Python</p>
+                </div>
+                <div class="skill-card">
+                    <img src="resources/icons/HtmlCss.png" class="skill-icon" style="transform: scale(1.7);" alt="">
+                    <p>HTML/CSS</p>
+                </div>
+                <div class="skill-card">
+                    <img src="resources/icons/sql-logo.png" class="skill-icon" alt="SQL">
+                    <p>SQL</p>
+                </div>
+                
+            </div>
+        </div>
+    
+        <div class="skills-category">
+            <h3>Frameworks and Libraries</h3>
+            <br>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="resources/icons/tensorflow.png" class="skill-icon" alt="">
+                    <p>TensorFlow</p>
+                </div>
+                <div class="skill-card"><img src="resources/icons/pytorch.png" class="skill-icon" alt="">
+                    <p>PyTorch</p>  </div>              
+                <div class="skill-card"><img src="resources/icons/flask.png" class="skill-icon" style="transform: scale(2.3);" alt="">
+                    <p>Flask</p>  </div>              
+                <div class="skill-card"><img src="resources/icons/django.png" class="skill-icon" style="transform: scale(2.4);" alt="">
+                    <p>Django</p>  </div>              
+                <div class="skill-card">
+                    <img src="resources/icons/XGBoost.jpg" class="skill-icon" style="transform: scale(2.6);" alt="">
+                    <p>XGBoost</p>
+                </div>
+                <div class="skill-card">
+                    <img src="resources/icons/Scikit_learn_logo_small.svg.png" class="skill-icon" style="transform: scale(2.1);" alt="">
+                    <p>Scikit-Learn</p>
+                </div>
+                <div class="skill-card">
+                    <img src="resources/icons/pandas.png" class="skill-icon" style="transform: scale(2.2);" alt="">
+                    <p>Pandas</p>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3>Tools</h3>
+                <br>
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <img src="resources/icons/vscode.png" class="skill-icon" alt="">
+                        <p>VS Code</p>
+                    </div>
+                    <div class="skill-card"><img src="resources/icons/Jupyter_logo.png" class="skill-icon" style="transform: scale(1.4);" alt="">
+                        <p>Jupyter</p>  </div>              
+                    <div class="skill-card"><img src="resources/icons/git.png" class="skill-icon" style="transform: scale(1.2);" alt="">
+                        <p>Git/GitLab</p>  </div>              
+                    <div class="skill-card"><img src="resources/icons/SPSS.png" class="skill-icon" style="transform: scale(2.4);" alt="">
+                        <p>SPSS</p>  </div>              
+                    <div class="skill-card">
+                        <img src="resources/icons/Power_BI.png" class="skill-icon" style="transform: scale(1.3);" alt="">
+                        <p>Power BI</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="resources/icons/postman.svg" class="skill-icon" style="transform: scale(2.1);" alt="">
+                        <p>Postman</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="resources/icons/oracle.png" class="skill-icon" style="transform: scale(1.8);" alt="">
+                        <p>Oracle Cloud</p>
+                    </div>
+            </div>
+
+
+        <!-- <div class="skills-category">
+            <h3>Laboratory Skills</h3>
+            <br>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="resources/icons/ELISA.png" class="skill-icon" alt="">
+                    <p>ELISA</p>
+                </div>
+                <div class="skill-card"><img src="resources/icons/microscope.avif" class="skill-icon" alt="">
+                    <p>Light Microscopy</p>  </div>              
+                <div class="skill-card">
+                    <img src="resources/icons/culture.webp" class="skill-icon" alt="">
+                    <p>Microbial Culturing</p>
+                </div>
+                <div class="skill-card">
+                    <img src="resources/icons/biochemical.jpg" class="skill-icon" alt="">
+                    <p>Biochemical Assay</p>
+                </div>
+
+            </div>
+        </div> -->
+    </section>
+
+
+    <section class="contact-section" id="contact">
+        <h1 class="contact-title">Get In Touch</h1>
+        <p class="contact-subtitle">Feel free to reach out through any of these platforms</p>
+        
+        <div class="contact-platforms">
+            <!-- Email -->
+            <a href="mailto:addisinicholas@gmail.com" class="contact-card">
+                <div class="contact-icon email">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-name">Email</div>
+                <div class="contact-handle">addisinicholas@gmail.com</div>
+            </a>
+            
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/nicholashisrichaddisi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="contact-card">
+                <div class="contact-icon linkedin">
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+                <div class="contact-name">LinkedIn</div>
+                <div class="contact-handle">Nicholas Hisrich Addisi</div>
+            </a>
+            
+            <!-- GitHub -->
+            <a href="https://github.com/Hisrich" target="_blank" class="contact-card">
+                <div class="contact-icon github">
+                    <i class="fab fa-github"></i>
+                </div>
+                <div class="contact-name">GitHub</div>
+                <div class="contact-handle">@hisrich</div>
+            </a>
+            
+            <!-- WhatsApp -->
+            <a href="https://wa.me/233594791756" target="_blank" class="contact-card">
+                <div class="contact-icon whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="contact-name">WhatsApp</div>
+                <div class="contact-handle">+233594791756</div>
+            </a>
+            
+            <!-- Telegram -->
+            <a href="https://t.me/his_rich" target="_blank" class="contact-card">
+                <div class="contact-icon telegram">
+                    <i class="fab fa-telegram-plane"></i>
+                </div>
+                <div class="contact-name">Telegram</div>
+                <div class="contact-handle">@his_rich</div>
+            </a>
+        </div>
+    </section>
+
+
+    
+    
+    <footer class="footer">
+        <div class="footer-left">
+            <p class="footer-text">&copy; 2025 Nicholas Hisrich Addisi</p>
+        </div>
+    </footer>
+    <script src="resources/script.js"></script>
+</body>
+</html>
