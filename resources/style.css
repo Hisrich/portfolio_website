@@ -404,10 +404,11 @@ body {
 .telegram { color: #0088cc; }
 
 /* Mobile-first adjustments */
+/* Update the mobile media queries for contact section */
 @media (max-width: 768px) {
   .contact-section {
-    padding: 25px 15px;
-    margin: 30px 10px;
+    padding: 20px 10px;
+    margin: 20px 10px;
   }
   
   .contact-title {
@@ -416,57 +417,56 @@ body {
   
   .contact-subtitle {
     font-size: 1rem;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   
   .contact-platforms {
-    gap: 8px;
-    margin-top: 30px;
+    gap: 6px;
+    margin-top: 20px;
     padding-bottom: 10px;
     justify-content: flex-start;
   }
   
   .contact-card {
-    width: 90px;
-    min-width: 90px;
-    padding: 12px 5px;
-    border-radius: 8px;
+    width: 70px; /* Reduced from 90px */
+    min-width: 70px;
+    padding: 8px 4px;
+    border-radius: 6px;
   }
   
   .contact-icon {
-    font-size: 1.5rem;
-    margin-bottom: 8px;
+    font-size: 1.2rem;
+    margin-bottom: 6px;
   }
   
   .contact-name {
-    font-size: 0.7rem;
-    margin-bottom: 4px;
+    font-size: 0.6rem;
+    margin-bottom: 3px;
   }
   
   .contact-handle {
-    font-size: 0.6rem;
-    line-height: 1.2;
+    font-size: 0.5rem;
+    line-height: 1.1;
   }
 }
 
-/* Extra small devices */
 @media (max-width: 480px) {
   .contact-card {
-    width: 80px;
-    min-width: 80px;
-    padding: 10px 4px;
+    width: 65px; /* Reduced from 80px */
+    min-width: 65px;
+    padding: 6px 3px;
   }
   
   .contact-icon {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   
   .contact-name {
-    font-size: 0.65rem;
+    font-size: 0.55rem;
   }
   
   .contact-handle {
-    font-size: 0.55rem;
+    font-size: 0.45rem;
   }
 }
 
