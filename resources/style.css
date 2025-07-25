@@ -338,8 +338,9 @@ body {
 .contact-platforms {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
+  overflow-x: visible;
   align-items: stretch;
   gap: 15px;
   margin-top: 40px;
@@ -348,6 +349,7 @@ body {
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
   width: 100%;
+  min-width: 100%;
 }
 
 .contact-platforms::-webkit-scrollbar {
